@@ -3,6 +3,7 @@ import './App.css';
 import Nav from './components/nav.js';
 import Footer from './components/footer.js'
 import Upload from './components/upload'
+import StudyGuide from './components/study_guide';
 
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
         <Nav />
         <body>
           <Upload/>
+          <StudyGuide/>
         </body>
         <Footer />
     </div>
