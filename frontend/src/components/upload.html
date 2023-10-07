@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>StudyMate Pro</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> 
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="index.html">Home</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home</a></li> 
+        <li><a href="#">Upload</a></li> 
+        <li><a href="#">Username/Guest</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="signin.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Sign Up</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+  
+<div class="container-fluid text-center sidebar w-75">    
+  <div class="row content">
+    <div class="col-sm-2 sidenav"> 
+      <p><a href="#">Universities</a></p>
+      <p><a href="#">Professors</a></p>
+      <p><a href="#">Schools</a></p>
+      <p><a href="#">Courses</a></p>
+    </div>
+    <div class="col-sm-8 text-left"> 
+        <p class="h2 text-center py-1">Content Upload</p>
+        <form>
+            <div class="form-group row">
+                <label for="firstname" class="col-sm-2 col-form-label">Firstname</label>
+                <div class="col-sm-10">
+                  <input type="text" class="form-control" id="firstname" placeholder="username" required>
+                </div>
+              </div>
+              <div class="form-group row">
+                <label for="lastname" class="col-sm-2 col-form-label">Lastname</label>
+                <div class="col-sm-10">
+                  <input type="text" class="form-control" id="lastname" placeholder="username" required>
+                </div>
+              </div>
+            <div class="form-group row">
+              <label for="username" class="col-sm-2 col-form-label">Username</label>
+              <div class="col-sm-10">
+                <input type="text" class="form-control" id="username" placeholder="username">
+              </div>
+            </div>
+            <div class="form-group row">
+              <label for="email" class="col-sm-2 col-form-label">Email</label>
+              <div class="col-sm-10">
+                <input type="email" class="form-control" id="email" placeholder="Email" required>
+              </div>
+            </div>
+            <div class="form-group row">
+              <label for="university-name" class="col-sm-2 col-form-label">University Name</label>
+              <div class="col-sm-10">
+                <input type="text" class="form-control" id="university-name" placeholder="University name" required>
+              </div>
+            </div>
+            <div class="form-group row">
+              <label for="password" class="col-sm-2 col-form-label">Password</label>
+              <div class="col-sm-10">
+                <input type="password" class="form-control" id="password" placeholder="Password" required>
+              </div>
+            </div>
+            <fieldset class="form-group">
+              <div class="row">
+                <legend class="col-form-label col-sm-2 pt-0">Level</legend>
+                <div class="col-sm-10">
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+                    <label class="form-check-label" for="gridRadios1">
+                      Freshman
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                    <label class="form-check-label" for="gridRadios2">
+                      Sophomore
+                    </label>
+                  </div>
+                  <div class="form-check ">
+                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3" value="option3">
+                    <label class="form-check-label" for="gridRadios3">
+                      Junior
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3" value="option3">
+                    <label class="form-check-label" for="gridRadios3">
+                      Senior
+                    </label>
+                  </div>
+                </div>
+              </div>
+            </fieldset> 
+            <div class="form-group row">
+              <div class="col-sm-10">
+                <button type="submit" class="btn btn-primary">Sign up</button>
+              </div>
+            </div>
+          </form>
+    </div> 
+  </div>
+</div>
+
+<footer class="footer py-3 bg-light fixed-bottom">
+    <div class="container text-center">
+        <span class="text-muted">hackRU   2023 | </span>
+        <span class="text-muted">About |</span>
+        <span class="text-muted">Contact</span>
+    </div>
+</footer>
+</body>
+</html>
